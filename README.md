@@ -59,10 +59,10 @@ Script ini membaca semua file .txt hasil anotasi YOLO yang merepresentasikan kar
 - image: nama file gambar .jpg
 - ground_truth: hasil gabungan karakter dari label (dengan spasi adaptif)
 
-### 2. uas_computer_visiob.py
+### 2. uas_computer_vision.py
 jalankan :
 ```bash
-python evaluate_cer.py
+python uas_computer_vision.py
 ```
 Script ini akan:
 - Membaca file ground_truth.csv
